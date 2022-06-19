@@ -1,2 +1,0 @@
-# prashanthnalla-portfolio
-# prashanthnalla-portfolio
