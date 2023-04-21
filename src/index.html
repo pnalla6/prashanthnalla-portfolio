@@ -24,43 +24,140 @@
     <div class="container">
         <div class="intro">
             <h1>Hello, I'm <i id="easterEgg">Prashanth Nalla.</i> </h1>
-            <p>Welcome to my first website,<br>and I'm happy you've found it. (^<span style="color: orange;">_</span>^)</p>
+            <p>Welcome to my first website,<br>and I'm happy you've found it. (^<span style="color: orange;">_</span>^)
+            </p>
         </div>
     </div>
     <main class="main">
-        <h1>About Me😎</h1>
-        <section class="self_description">
-            <h2>Hello! My name is Prashanth Nalla.</h2>
-            <h3>I am a Student, Programmer and an aspiring Creative Coder. And since you're here, I wanted to share that I'm also a new graduate student at the State University of New York at Buffalo.</h3>
-            <!-- <p>(IM really so excited coz this is going to be my first ever studying experience in a foreign country!)</p> -->
-        </section>
+        <div class="tabs" style="display: flex; justify-content: space-between;">
+            <h4 class="tab" data-tab="self_description">About Me😎</h4>
+            <h4 class="tab" data-tab="prev_education">Previous Education</h4>
+            <h4 class="tab" data-tab="recent_projects">My Recent Personal Projects💻</h4>
+            <h4 class="tab" data-tab="connect_withme">Connect</h4>
+        </div>
+        <section class="tab-content self_description" style="display: block;">
+            <p> Hey there! I'm Prashanth, a Master of Science in Computer and Information Science student at the
+                University
+                at Buffalo. As a graduate teaching assistant for Operating Systems, I've discovered my passion for
+                helping
+                others and sharing my knowledge.
 
-        <section class="prev_education">
-            <h2>Previous Education</h2>
-            <p>At B.V Raju Institute of Technology in India, I earned my Bachelor's degree in <code>Computer Science and Engineering</code>. This university gave me a myriad of new experiences and helped me to find few best people!</p>
-        </section>
+                My technical skills include proficiency in programming languages like Python, Java, JavaScript, C++, C,
+                HTML, CSS, and PHP, and databases like MySQL, PostgreSQL, NoSQL, MongoDB, and SQLite. I'm also
+                experienced
+                in frameworks and tools like Node.js, Spring, Hibernate, Django, Flask, React.js, AngularJS, Vue.js,
+                Mocha,
+                JUnit, and AWS.
 
-        <section class="recent_projects">
+                But what sets me apart is my ability to work collaboratively with a team and my eagerness to learn new
+                things. I've had the privilege of working as a Full Stack Developer at Hans Matrimony, where I developed
+                and
+                maintained EazyBe.com websites using React, Redux, JavaScript, Java, Spring, Hibernate, HTML5, CSS3, and
+                MySQL. In addition to integrating multiple third-party APIs and building a comprehensive components
+                library,
+                I implemented client-side data caching and designed a microservices architecture to improve application
+                scalability, performance, and availability.
+
+                Outside of work and school, I'm a huge fan of reading, exploring the great outdoors, and spending time
+                with
+                my loved ones. I believe that being a well-rounded individual and fostering personal growth is just as
+                important as technical expertise.
+
+                Overall, I'm excited to continue growing and contributing to the field of computer science while
+                maintaining
+                a balanced and fulfilling life outside of work.</p>
+        </section>
+        <section class="tab-content prev_education" style="display: none;">
+            <h2 class="section-heading">Previous Education</h2>
+            <div class="section-subheading">A journey of learning and growth</div>
+            <div class="education-block">
+              <h3 class="education-title">Bachelors in Computer Science and Engineering</h3>
+              <div class="education-degree">B.V Raju Institute of Technology, India</div>
+              <div class="education-period">2016 - 2020</div>
+            </div>
+            <div class="education-details">
+              <p>During my undergraduate studies, I pursued a Bachelor's degree in Computer Science and Engineering at B.V Raju Institute of Technology in India. Those four years were some of the most formative and enriching years of my life. My courses were a mix of theoretical computer science and hands-on programming projects, which helped me to hone my technical skills and problem-solving abilities.</p>
+              <p>I was also a member of the college's coding club, which allowed me to collaborate with peers on challenging programming challenges and improve my teamwork skills. Outside of academics, I was involved in organizing cultural events and sports tournaments, which taught me valuable leadership and event management skills.</p>
+              <p>Overall, my undergraduate education was a well-rounded experience that prepared me for my future academic and professional pursuits. I am grateful for the opportunity to learn and grow during this time and look forward to continuing my educational journey in the future.</p>
+            </div>
+          </section>
+
+          <section class="tab-content recent_projects" style="display: none;">
             <h2>My Recent Personal Projects💻</h2>
-            <h3>
-                <ul>
-                    <li>
-                        <a href="https://prashanthkumarnalla.github.io/MVisualizer_pksc/">Music Visualizer</a>
-                    </li>
-                </ul>
-            </h3>
-            <p>This is basically a music visualizer made with HTML, CSS, and p5.js.</p>
+            <div class="project-block">
+                <div class="project-title">
+                    <h3><a href="https://prashanthkumarnalla.github.io/MVisualizer_pksc/">Music Visualizer</a></h3>
+                    <span class="project-date">March 2022 - April 2022</span>
+                </div>
+                <div class="project-description">
+                    <p>As an avid music listener, I wanted to create something that would allow me to visualize music in a creative way. Using my skills in HTML, CSS, and p5.js, I developed a music visualizer that responds to audio inputs and generates a visual representation of the sound waves. This project challenged me to think creatively and outside of the box, as well as allowing me to strengthen my coding skills.</p>
+                    <ul class="project-features">
+                        <li>Developed using HTML, CSS, and p5.js</li>
+                        <li>Responsive and user-friendly interface</li>
+                        <li>Generates a visual representation of sound waves</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-block">
+                <div class="project-title">
+                    <h3><a href="#">Project 2 Title</a></h3>
+                    <span class="project-date">Jan 2022 - Feb 2022</span>
+                </div>
+                <div class="project-description">
+                    <p>Description of project 2 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod justo velit, sed bibendum felis efficitur id. Curabitur id volutpat libero, nec porttitor dolor. Aliquam sodales ante a hendrerit efficitur. Integer facilisis interdum libero, vel consectetur tortor lacinia id. Proin a ex lobortis, rhoncus turpis vel, vestibulum enim.</p>
+                    <ul class="project-features">
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-block">
+                <div class="project-title">
+                    <h3><a href="#">Project 3 Title</a></h3>
+                    <span class="project-date">Nov 2021 - Dec 2021</span>
+                </div>
+                <div class="project-description">
+                    <p>Description of project 3 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod justo velit, sed bibendum felis efficitur id. Curabitur id volutpat libero, nec porttitor dolor. Aliquam sodales ante a hendrerit efficitur. Integer facilisis interdum libero, vel consectetur tortor lacinia id. Proin a ex lobortis, rhoncus turpis vel, vestibulum enim.</p>
+                    <ul class="project-features">
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section class="connect_withme">
+        <section class="tab-content connect_withme" style="display: none;">
             <h2>Connect</h2>
             <div class="socials">
                 <h5><a href="https://www.linkedin.com/in/pksc">LinkedIn</a></h5>
                 <h5><a href="https://www.instagram.com/prashanthkumar_nalla/">Instagram</a></h5>
                 <h5><a href="https://github.com/prashanthKumarNalla">Github</a></h5>
+                <h5><a href="../Prashanth_Nalla.pdf" target="_blank">Resume</a></h5>
             </div>
         </section>
+
+        <script>
+            const tabs = document.querySelectorAll('.tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach((tab) => {
+                tab.addEventListener('click', () => {
+                    const target = tab.dataset.tab;
+                    tabContents.forEach((tabContent) => {
+                        if (tabContent.classList.contains(target)) {
+                            tabContent.style.display = 'block';
+                        } else {
+                            tabContent.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        </script>
     </main>
+
+
 </body>
 
 </html>
