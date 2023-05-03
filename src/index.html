@@ -22,6 +22,12 @@
     </div>
     <canvas class="webgl"></canvas>
     <div class="container">
+        <div class="tabs" style="display: flex; justify-content: space-between;">
+            <h4 class="tab" data-tab="self_description">About Me😎</h4>
+            <h4 class="tab" data-tab="prev_education">Education</h4>
+            <h4 class="tab" data-tab="recent_projects">Projects💻</h4>
+            <h4 class="tab" data-tab="connect_withme">Connect</h4>
+        </div>
         <div class="intro">
             <h1>Hello, I'm <i id="easterEgg">Prashanth Nalla.</i> </h1>
             <p>Welcome to my first website,<br>and I'm happy you've found it. (^<span style="color: orange;">_</span>^)
@@ -29,60 +35,66 @@
         </div>
     </div>
     <main class="main">
-        <div class="tabs" style="display: flex; justify-content: space-between;">
-            <h4 class="tab" data-tab="self_description">About Me😎</h4>
-            <h4 class="tab" data-tab="prev_education">Previous Education</h4>
-            <h4 class="tab" data-tab="recent_projects">My Recent Personal Projects💻</h4>
-            <h4 class="tab" data-tab="connect_withme">Connect</h4>
-        </div>
-        <section class="tab-content self_description" style="display: block;">
-            <p> Hey there! I'm Prashanth, a Master of Science in Computer and Information Science student at the
-                University
-                at Buffalo. As a graduate teaching assistant for Operating Systems, I've discovered my passion for
-                helping
-                others and sharing my knowledge.
-
-                My technical skills include proficiency in programming languages like Python, Java, JavaScript, C++, C,
-                HTML, CSS, and PHP, and databases like MySQL, PostgreSQL, NoSQL, MongoDB, and SQLite. I'm also
-                experienced
-                in frameworks and tools like Node.js, Spring, Hibernate, Django, Flask, React.js, AngularJS, Vue.js,
-                Mocha,
-                JUnit, and AWS.
-
-                But what sets me apart is my ability to work collaboratively with a team and my eagerness to learn new
-                things. I've had the privilege of working as a Full Stack Developer at Hans Matrimony, where I developed
-                and
-                maintained EazyBe.com websites using React, Redux, JavaScript, Java, Spring, Hibernate, HTML5, CSS3, and
-                MySQL. In addition to integrating multiple third-party APIs and building a comprehensive components
-                library,
-                I implemented client-side data caching and designed a microservices architecture to improve application
-                scalability, performance, and availability.
-
-                Outside of work and school, I'm a huge fan of reading, exploring the great outdoors, and spending time
-                with
-                my loved ones. I believe that being a well-rounded individual and fostering personal growth is just as
-                important as technical expertise.
-
-                Overall, I'm excited to continue growing and contributing to the field of computer science while
-                maintaining
-                a balanced and fulfilling life outside of work.</p>
+        <section class="tab-content self_description">
+            <h2 class="section-heading">About Me</h2>
+            <p>As a recent graduate with a Master of Science in Computer Science from the University at Buffalo, I
+                possess a passion for problem-solving and a strong foundation in software development. I am confident in
+                my ability to make a valuable contribution to any forward-thinking organization in the technology
+                industry.</p>
+            <br>
+            <p> Throughout my academic career, I have gained valuable experience working on cross-functional teams to
+                create innovative solutions. I am proficient in programming languages such as Python, JavaScript and
+                Java, as well as software tools. Additionally, I possess strong analytical and communication skills that
+                enable me to effectively collaborate with colleagues and clients alike.</p>
+            <br>
+            <p> My ultimate goal is to leverage my education and experience to contribute to the growth and success of a
+                technology organization. I am highly motivated to continuously learn and incorporate new technologies
+                and methodologies into my work, and I am excited to take on new challenges and become a valuable asset
+                to any team in the technology industry.</p>
+            <br>
+            <p>My technical proficiencies include programming languages such as Python, Java, JavaScript, C++, C, HTML,
+                CSS, and PHP. I have experience working with databases such as MySQL, PostgreSQL, NoSQL, MongoDB, and
+                SQLite. I am also proficient in frameworks/tools/cloud such as Node.js, Spring, Hibernate, Django,
+                Flask, React.js, AngularJS, Vue.js, Redis, Apache Kafka, Mocha, JUnit, and AWS.</p>
+            <br>
+            <p> I have gained professional experience as a Full Stack Developer, where I developed and maintained
+                websites using React, Redux, JavaScript, Java, Spring, Hibernate, HTML5, CSS3, and MySQL. I have also
+                worked as an Apprentice at Persistent Systems, where I collaborated with a team of developers to design
+                and implement a drone's control system and visual interface using Python and the A* algorithm for
+                optimal pathfinding.</p>
+            <br>
+            <p>In addition to my professional experience, I have contributed to academic projects such as Pintos, where
+                I developed various operating system features using C, GDB, and QEMU. I have also contributed to
+                OneDataShare.org, an open-source data transfer software, and developed a full-stack web application
+                called ReviewScope using ReactJS, Redux, NodeJS, and MongoDB to manage conference roles.</p>
+            <br>
+            <p>I am currently pursuing a Master of Science in Computer and Information Science at the University at
+                Buffalo, where I also serve as a Graduate Teaching Assistant for CSE 4/521 Operating Systems.</p>
         </section>
-        <section class="tab-content prev_education" style="display: none;">
+        <section class="tab-content prev_education">
             <h2 class="section-heading">Previous Education</h2>
             <div class="section-subheading">A journey of learning and growth</div>
             <div class="education-block">
-              <h3 class="education-title">Bachelors in Computer Science and Engineering</h3>
-              <div class="education-degree">B.V Raju Institute of Technology, India</div>
-              <div class="education-period">2016 - 2020</div>
+                <h3 class="education-title">Bachelors in Computer Science and Engineering</h3>
+                <div class="education-degree">B.V Raju Institute of Technology, India</div>
+                <div class="education-period">2015 - 2019</div>
             </div>
             <div class="education-details">
-              <p>During my undergraduate studies, I pursued a Bachelor's degree in Computer Science and Engineering at B.V Raju Institute of Technology in India. Those four years were some of the most formative and enriching years of my life. My courses were a mix of theoretical computer science and hands-on programming projects, which helped me to hone my technical skills and problem-solving abilities.</p>
-              <p>I was also a member of the college's coding club, which allowed me to collaborate with peers on challenging programming challenges and improve my teamwork skills. Outside of academics, I was involved in organizing cultural events and sports tournaments, which taught me valuable leadership and event management skills.</p>
-              <p>Overall, my undergraduate education was a well-rounded experience that prepared me for my future academic and professional pursuits. I am grateful for the opportunity to learn and grow during this time and look forward to continuing my educational journey in the future.</p>
+                <p>During my undergraduate studies, I pursued a Bachelor's degree in Computer Science and Engineering at
+                    B.V Raju Institute of Technology in India. Those four years were some of the most formative and
+                    enriching years of my life. My courses were a mix of theoretical computer science and hands-on
+                    programming projects, which helped me to hone my technical skills and problem-solving abilities.</p>
+                <p>I was also a member of the college's coding club, which allowed me to collaborate with peers on
+                    challenging programming challenges and improve my teamwork skills. Outside of academics, I was
+                    involved in organizing cultural events and sports tournaments, which taught me valuable leadership
+                    and event management skills.</p>
+                <p>Overall, my undergraduate education was a well-rounded experience that prepared me for my future
+                    academic and professional pursuits. I am grateful for the opportunity to learn and grow during this
+                    time and look forward to continuing my educational journey in the future.</p>
             </div>
-          </section>
+        </section>
 
-          <section class="tab-content recent_projects" style="display: none;">
+        <section class="tab-content recent_projects">
             <h2>My Recent Personal Projects💻</h2>
             <div class="project-block">
                 <div class="project-title">
@@ -90,7 +102,11 @@
                     <span class="project-date">March 2022 - April 2022</span>
                 </div>
                 <div class="project-description">
-                    <p>As an avid music listener, I wanted to create something that would allow me to visualize music in a creative way. Using my skills in HTML, CSS, and p5.js, I developed a music visualizer that responds to audio inputs and generates a visual representation of the sound waves. This project challenged me to think creatively and outside of the box, as well as allowing me to strengthen my coding skills.</p>
+                    <p>As an avid music listener, I wanted to create something that would allow me to visualize music in
+                        a creative way. Using my skills in HTML, CSS, and p5.js, I developed a music visualizer that
+                        responds to audio inputs and generates a visual representation of the sound waves. This project
+                        challenged me to think creatively and outside of the box, as well as allowing me to strengthen
+                        my coding skills.</p>
                     <ul class="project-features">
                         <li>Developed using HTML, CSS, and p5.js</li>
                         <li>Responsive and user-friendly interface</li>
@@ -104,7 +120,10 @@
                     <span class="project-date">Jan 2022 - Feb 2022</span>
                 </div>
                 <div class="project-description">
-                    <p>Description of project 2 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod justo velit, sed bibendum felis efficitur id. Curabitur id volutpat libero, nec porttitor dolor. Aliquam sodales ante a hendrerit efficitur. Integer facilisis interdum libero, vel consectetur tortor lacinia id. Proin a ex lobortis, rhoncus turpis vel, vestibulum enim.</p>
+                    <p>Description of project 2 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                        euismod justo velit, sed bibendum felis efficitur id. Curabitur id volutpat libero, nec
+                        porttitor dolor. Aliquam sodales ante a hendrerit efficitur. Integer facilisis interdum libero,
+                        vel consectetur tortor lacinia id. Proin a ex lobortis, rhoncus turpis vel, vestibulum enim.</p>
                     <ul class="project-features">
                         <li>Feature 1</li>
                         <li>Feature 2</li>
@@ -118,7 +137,10 @@
                     <span class="project-date">Nov 2021 - Dec 2021</span>
                 </div>
                 <div class="project-description">
-                    <p>Description of project 3 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod justo velit, sed bibendum felis efficitur id. Curabitur id volutpat libero, nec porttitor dolor. Aliquam sodales ante a hendrerit efficitur. Integer facilisis interdum libero, vel consectetur tortor lacinia id. Proin a ex lobortis, rhoncus turpis vel, vestibulum enim.</p>
+                    <p>Description of project 3 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                        euismod justo velit, sed bibendum felis efficitur id. Curabitur id volutpat libero, nec
+                        porttitor dolor. Aliquam sodales ante a hendrerit efficitur. Integer facilisis interdum libero,
+                        vel consectetur tortor lacinia id. Proin a ex lobortis, rhoncus turpis vel, vestibulum enim.</p>
                     <ul class="project-features">
                         <li>Feature 1</li>
                         <li>Feature 2</li>
@@ -128,7 +150,7 @@
             </div>
         </section>
 
-        <section class="tab-content connect_withme" style="display: none;">
+        <section class="tab-content connect_withme">
             <h2>Connect</h2>
             <div class="socials">
                 <h5><a href="https://www.linkedin.com/in/pksc">LinkedIn</a></h5>
@@ -145,15 +167,27 @@
             tabs.forEach((tab) => {
                 tab.addEventListener('click', () => {
                     const target = tab.dataset.tab;
+
+                    tabs.forEach((t) => {
+                        if (t.dataset.tab === target) {
+                            t.classList.add('active');
+                        } else {
+                            t.classList.remove('active');
+                        }
+                    });
+
                     tabContents.forEach((tabContent) => {
                         if (tabContent.classList.contains(target)) {
-                            tabContent.style.display = 'block';
+                            tabContent.classList.add('active');
+                            tabContent.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
                         } else {
-                            tabContent.style.display = 'none';
+                            tabContent.classList.remove('active');
                         }
                     });
                 });
             });
+
+
         </script>
     </main>
 
